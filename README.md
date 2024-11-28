@@ -3,7 +3,7 @@
 This project demonstrates a simple ETL (Extract, Transform, Load) pipeline using Apache Airflow to fetch, process, and store cryptocurrency data. Specifically, it pulls Bitcoin data from the CoinGecko API and loads the transformed data into a PostgreSQL database.
 
 ## Project Structure 📂
-- **🗂 dags/crypto_etl_pipeline.py**: Main DAG defining the ETL process.
+- **🗂 dags/ETL-Cryptocurrency.py**: Main DAG defining the ETL process.
 - **🐳 Dockerfile**: Configuration for Astro runtime Docker image.
 - **📄 requirements.txt**: Python dependencies.
 - **🐳 docker-compose.yml**: Defines Docker services for local Airflow.
